@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Control Panel</title>
+    <link rel="stylesheet" href="../styles/ctrl-panel.css">
+    <link rel="icon" href="../assets/images/favicon-32x32.png" type="image/x-icon"
+</head>
+
+<body>
+
+    <main>
+        <div class="container">
+            <h1>Michiflix User Data Analysis</h1>
+            <form action="">
+                <label for="userId">User id</label>
+                <input id="userId" type="text" name="userId" placeholder="Enter user id">
+                <label for="fromDate">From date</label>
+                <input id="fromDate" type="date" name="fromDate">
+                <label for="toDate">To date</label>
+                <input id="toDate" type="date" name="toDate">
+                <select id="rate" name="rate">
+                    <option value="">Select rate</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select>
+                <button type="submit">Filter</button>
+                <a href="../index.html" class="back-button">Back</a>
+            </form>
+        </div>
+        <div class="container-results">
+
+        </div>
+    </main>
+
+    <script src="../scripts/movies-filter.js"></script>
+</body>
+
+</html>
